@@ -168,11 +168,14 @@ p {
 
 /*Index STARTS*/
 .indexContainer {
-  padding-left: 11%;
-  padding-right: 11%;
+  padding-left: 15%;
+  padding-right: 15%;
   padding-top: 3%;
   overflow: auto;
   padding-bottom: 5%;
+  width: 70%;
+
+
 }
 
 .indexText {
@@ -180,25 +183,21 @@ p {
   float: left;
 }
 
-
-.indexImages {
-  width: 50%;
+.indexTest {
+  width: 48%;
+  padding-left: 2%;
   float: right;
-  padding-top: 5%;
-  -webkit-animation: scale-in-center 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-          animation: scale-in-center 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-.indexImg {
-  width: 90%;
-  margin-bottom: 2%;
-  margin-left: 5%;
 }
 
 .testemonial {
   margin-top: -2%;
   padding-bottom: 4%;
 }
+
+.gallery {
+  margin-bottom: 5%;
+}
+
 
 /*Mobile Optimization*/
 @media screen and (max-width: 600px) {
