@@ -192,12 +192,13 @@ p {
 
 .testemonial {
   margin-top: -2%;
-  padding-bottom: 4%;
+  padding-bottom: 1%;
 }
 
 .gallery {
   margin-bottom: 5%;
-  width: 100%;
+  width: 95%;
+  margin: auto;
 }
 
 
@@ -483,6 +484,40 @@ input[type=button], input[type=submit], input[type=reset] {
 
 /*CONTACT PAGE ENDS*/
 
+
+
+
+/*Testimonials STARTS*/
+.testemonialContainer {
+  width: 70%;
+  margin: auto;
+  padding-top: 5%;
+  overflow: auto;
+}
+
+.testImg {
+  width: 100%;
+  border-radius: 0.2em;
+}
+
+.test {
+  margin-bottom: 8%;
+}
+
+.testCol1 {
+  width: 40%;
+  margin: auto;
+  float: left;
+}
+
+.testCol2 {
+  width: 40%;
+  margin: auto;
+  float: right;
+}
+
+
+/*Testtimonals ENDS*/
 
 
 
