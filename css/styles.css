@@ -255,9 +255,11 @@ p {
 
 /* About us STARTS */
 .aboutContainer {
+  padding-top: 5%;
   width: 70%;
   margin: auto;
   overflow: auto;
+  padding-bottom: 5%;
 }
 
 .aboutCol1 {
@@ -318,28 +320,36 @@ p {
 
 
 
-/*Scfholding Starts*/
-.scafContainer {
-  padding-left: 11%;
+
+/*Services START*/
+.servicesContainer {
+  width: 70%;
+  margin: auto;
+  padding-top: 5%;
   padding-bottom: 5%;
+  overflow: auto;
+}
+
+.service {
+  overflow: auto;
+  padding-bottom: 3%;
   padding-top: 3%;
 }
 
-.scafp {
-  width: 50%;
+.serviceImg {
+  float: right;
+  width: 48%;
+  margin-left: 2%;
+  border-radius: 0.3em;
 }
 
-/*Mobile Optimization*/
-@media screen and (max-width: 600px) {
-  .scafp {
-    width: 90%;
-  }
-  .scafImg {
-    width: 90%;
-  }
+.servicetext {
+  float: left;
+  width: 48%;
+  margin-right: 2%;
 }
 
-/*Scaffholding ENDS*/
+/*services ENDS*/
 
 
 
@@ -358,11 +368,12 @@ p {
 
 /*Form CSS*/
 form {
-  width: 50%;
+  width: 70%;
+  text-align: left;
 }
 
 input[type=text] {
-  width: 60%;
+  width: 65%;
   padding: 1%;
   font-size: 1.5em;
   box-sizing: border-box;
@@ -372,7 +383,7 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-  width: 70%;
+  width: 75%;
 }
 
 legend {
@@ -393,14 +404,18 @@ input[type=button], input[type=submit], input[type=reset] {
   border-radius: 5%;
 }
 
+textarea {
+  width: 70%;
+}
+
 /*Mobile Optimization*/
 @media screen and (max-width: 600px) {
   form {
-    width: 90%;
+    width: 100%;
   }
   textarea {
     column-count: 10;
-    width: 90%;
+    width: 40%;
   }
 }
 
@@ -440,6 +455,56 @@ input[type=button], input[type=submit], input[type=reset] {
 
 
 /*Testtimonals ENDS*/
+
+
+
+/*Work Examples STARTS*/
+.workExamplesContainer {
+  width: 70%;
+  margin: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  overflow: auto;
+}
+
+.exampleContainer {
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+.exampleImg {
+  float: left;
+  width: 48%;
+  margin-right: 2%;
+  border-radius: 0.3em;
+}
+
+.exampletext {
+  float: right;
+  width: 48%;
+  margin-left: 2%;
+}
+
+.exampleImg2 {
+  float: right;
+  width: 48%;
+  margin-left: 2%;
+  border-radius: 0.3em;
+}
+
+.exampletext2 {
+  float: left;
+  width: 48%;
+  margin-right: 2%;
+}
+
+
+
+/*Work Examples ENDS*/
+
 
 
 
