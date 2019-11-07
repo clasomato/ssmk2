@@ -12,28 +12,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta name="google-site-verification" content="7EwDku_Su1c4267XCMsfscGxSjU2a6G_KEARb8KUWW8" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
+  <!-- Navigation Bar -->
   <div class="topnav" id="myTopnav">
-      <img src="media/logo.jpg" alt="" width="30%" class="navlogo"><br>
-      <a href="index.html" class="nava">Home</a>
-      <a href="about.html" class="nava">Services</a>
-      <a href="testimonials.html" class="nava">Testimonials<br><img src="icons/navarrow.png" alt="" class="activeIcon"></a>
-  		<a href="scaf.html" class="nava">Work Examples</a>
-      <a href="contact.html" class="nava">Contact</a>
-      <a href="#" class="nava">Contact</a>
-      <a href="https://www.facebook.com/sticksandstoneslandscapeandpropertymaintenance" class="nava" target="_blank">Facebook</a>
-  		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    	<i class="fa fa-bars"></i>
-  		</a>
+    <!-- The logo in the hero div -->
+    <img src="media/logo.jpg" alt="" width="30%" class="navlogo"><br>
+		<a href="index.html" id="active" class="nava">Home</a>
+    <a href="about.html" class="nava">About Us</a>
+    <a href="#" class="nava">Services</a>
+    <a href="testimonials.html" class="nava">Testimonials <br><img src="icons/navarrow.png" alt="" class="activeIcon"></a>
+		<a href="#" class="nava">Work Examples</a>
+    <a href="contact.html" class="nava">Contact</a>
+    <a href="https://www.facebook.com/sticksandstoneslandscapeandpropertymaintenance" class="nava" target="_blank">Facebook</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <!-- This is the Font Awsome icon for mobile navigation -->
+    <i class="fa fa-bars"></i>
+		</a>
 	</div>
 
+
+  <!-- The main container for the testimonial page -->
   <div class="testemonialContainer">
     <h1>Testimonials</h1>
 
+    <!-- The left collum -->
     <div class="testCol1">
+      <!-- The container for each testimonial -->
       <div class="test">
         <img src="media/mas/3.jpg" alt="" class="testImg">
         <h2>John Smith</h2>
@@ -73,6 +79,7 @@
 
     </div>
 
+    <!-- The right collum for the testimonial page -->
     <div class="testCol2">
       <div class="test">
         <img src="media/mas/3.jpg" alt="" class="testImg">
@@ -112,7 +119,7 @@
 
 
 
-
+  <!-- The footer -->
   <div class="footer">
     <div class="footerContent">
       <div class="footertext">
@@ -132,6 +139,8 @@
     </div>
   </div>
 
+  <!-- JQuery version 2 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script>
 		/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 		function myFunction() {
