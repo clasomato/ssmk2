@@ -138,7 +138,10 @@ p {
 
 
 .activeIcon {
-  width: 20px;
+  width: 10px;
+  position: absolute;
+  left: 0;
+  margin-left: 45%;
 }
 
 .navlogoa {
@@ -149,6 +152,10 @@ p {
   .navlogo {
     width: 80%;
     float: left;
+  }
+
+  .activeIcon {
+    display: none;
   }
 }
 /**NAvigation ENDS**/
@@ -216,6 +223,11 @@ p {
 
   .indexImg {
     width: 100%;
+  }
+
+  .indexTest {
+    width: 90%;
+    float: none;
   }
 }
 
@@ -302,6 +314,25 @@ p {
   }
   .aboutContainer {
     padding-bottom: 1%;
+    width: 90%;
+  }
+
+  .aboutCol1 {
+    width: 90%;
+    float: none;
+    padding-bottom: 3%;
+    margin: auto;
+  }
+
+  .aboutCol2 {
+    width: 90%;
+    float: none;
+    padding-bottom: 3%;
+    margin: auto;
+  }
+
+  .aboutImg {
+    width: 100%;
   }
 }
 
@@ -347,6 +378,34 @@ p {
   float: left;
   width: 48%;
   margin-right: 2%;
+}
+
+.inquireButton {
+  text-decoration: none;
+  padding: 2%;
+  background-color: blue;
+  color: white;
+  border-radius: 0.1em;
+}
+
+
+/* Mobile Optimization */
+@media screen and (max-width: 600px) {
+  .servicesContainer {
+    width: 90%;
+  }
+
+  .service {
+    width: 100%;
+  }
+
+  .serviceImg {
+    width: 100%;
+  }
+
+  .servicetext {
+    width: 100%;
+  }
 }
 
 /*services ENDS*/
